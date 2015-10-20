@@ -1,0 +1,15 @@
+# Site settings
+title: Matagor
+email: tere@matagor.com
+description: > # this means to ignore newlines until "baseurl:"
+  Matagor ühendab põhjamaise mütoloogia soojade päikesekultuuridega.
+description_en: >
+  Colourful nordic art with flavours of sunshine
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://matagor.com" # the base hostname & protocol for your site
+
+
+copyright: 2015 Matagor &amp; Haldjas
+
+# Build settings
+markdown: kramdown

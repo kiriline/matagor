@@ -1,0 +1,16 @@
+<!-- Carousel -->
+  <section class="carousel">
+    <div class="reel">
+
+      {% for item in site.data.carousel %}
+      <article>
+        <a href="{{ item.permalink }}" class="image featured"><img src="/images{{ item.img }}" alt="" /></a>
+        <header>
+          <h3><a href="{{ item.permalink }}">{{ item.title }}</a></h3>
+        </header>
+        <p>{{ item.summary }}</p>
+      </article>
+      {% endfor %}
+
+    </div>
+  </section>

@@ -1,0 +1,31 @@
+{% comment %}
+
+
+      <div class="trigger">
+        {% for page in site.pages %}
+          {% if page.title %}
+          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+{% endcomment %}
+
+<!-- Header -->
+        <div id="header">
+
+          <!-- Inner -->
+            <div class="inner">
+              <header>
+                <h1><a href="{{ site.baseurl }}/" id="logo">{{ site.title }}</a></h1>
+                <hr />
+                <p>{{ site.description }}</p>
+              </header>
+              <footer>
+                <a href="#banner" class="button circled scrolly">Start</a>
+              </footer>
+            </div>
+
+          {% include nav.html %}
+
+        </div>
