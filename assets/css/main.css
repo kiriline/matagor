@@ -47,6 +47,9 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
+	p img {
+		max-width: 100%;
+	}
 
 /* Box Model */
 
@@ -1737,7 +1740,6 @@
 		border: 0;
 		outline: 0;
 	}
-
 		.image img {
 			display: block;
 			width: 100%;
