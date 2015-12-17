@@ -5,6 +5,7 @@
       <li>
         <a href="{{ "/tikandid/" | prepend: site.baseurl }}">Tikandid</a>
         <ul>
+          <li><a href="{{ "/tikandid/seelik/" | prepend: site.baseurl }}">Seelik</a></li>
           <li><a href="{{ "/tikandid/hall-mantel/" | prepend: site.baseurl }}">Halli mantli kolmas elu</a></li>
           <li><a href="{{ "/tikandid/mardimantel/" | prepend: site.baseurl }}">Mardimantel</a></li>
           {% comment %}<li><a href="{{ "/tikandid/kunstniku-kampsun/" | prepend: site.baseurl }}">Kunstniku kampsun</a></li>
@@ -16,10 +17,17 @@
       {% comment %}
       <li><a href="{{ "/tooted/" | prepend: site.baseurl }}">Tooted</a>
         <ul>
-          <li><a href="{{ "/tooted/#/" | prepend: site.baseurl }}">1</a></li>
+          <li>
+            <a href="{{ "/tooted/visandivihik/" | prepend: site.baseurl }}">Matagori visandivihik</a>
+            <ul>
+              <li><a href="{{ "/tooted/visandivihik/lood/" | prepend: site.baseurl }}">Visandivihiku lood</a></li>
+            </ul>
+          </li>
+
           <li><a href="{{ "/tooted/#/" | prepend: site.baseurl }}">2</a></li>
           <li><a href="{{ "/tooted/#/" | prepend: site.baseurl }}">3 </a></li>
           <li><a href="{{ "/tooted/#/" | prepend: site.baseurl }}">4</a></li>
+
         </ul>
       </li>
       {% endcomment %}
